@@ -121,7 +121,13 @@ Generating embeddings: 100%|████████| 24/24
 
 **Note**: The `data/` folder is gitignored as it contains your indexed documents. After cloning this repo, you'll need to run `python ingest.py` to generate your own vector database.
 
-### 3. Launch the Interface
+### 3. Ollama Serve
+
+```bash
+ollama serve
+```
+
+### 4. Launch the Interface
 
 ```bash
 python app.py
@@ -129,7 +135,7 @@ python app.py
 
 Navigate to `http://localhost:7860` in your browser.
 
-### 4. Query Your Documents
+### 5. Query Your Documents
 
 Example queries:
 - "Summarise the main points from the Q4 meeting"
