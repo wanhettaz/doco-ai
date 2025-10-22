@@ -1,0 +1,29 @@
+MEETING SUMMARY - Q4 Planning Session
+Date: October 15, 2025
+Attendees: Engineering Team
+
+Key Discussion Points:
+
+1. Infrastructure Migration
+   - Moving from AWS to hybrid cloud setup
+   - Target completion: End of Q1 2026
+   - Cost savings projected at 30-40%
+   - Need to evaluate Kubernetes vs serverless for new workloads
+
+2. AI/ML Integration
+   - Exploring LLM integration for customer support
+   - Privacy concerns require on-premise deployment
+   - Evaluating Ollama, vLLM, and LocalAI as options
+   - POC scheduled for next sprint
+
+3. Team Expansion
+   - Hiring 2 senior engineers Q1
+   - Focus on AI engineering and cloud architecture
+   - Remote-first positions
+
+Action Items:
+- John: Draft infrastructure migration plan by Oct 25
+- Sarah: Research LLM deployment options
+- Team: Review and approve hiring JDs by Oct 20
+
+Next Meeting: October 29, 2025

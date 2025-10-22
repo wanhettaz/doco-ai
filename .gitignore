@@ -1,0 +1,25 @@
+# Virtual environment
+doco-ai/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Vector database
+data/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Local documents (optional - uncomment if you want to keep docs private)
+# docs/
+
+# Environment variables
+.env

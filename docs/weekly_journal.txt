@@ -1,0 +1,24 @@
+Weekly Journal - Week of October 14, 2025
+
+Monday:
+Started experimenting with local LLM deployment. Ollama makes this stupidly easy compared to the old days of running llama.cpp manually. Pulled llama3.2 and qwen2.5 models. Qwen seems faster but llama has better reasoning for technical questions.
+
+Discovered that embedding models matter way more than I thought. Switched from all-MiniLM to bge-small and retrieval quality improved noticeably. The 384 dimensions are plenty for my use case.
+
+Tuesday:
+Deep dive into ChromaDB internals. Uses HNSW (Hierarchical Navigable Small World) graphs for approximate nearest neighbor search. Trade-off between accuracy and speed but totally worth it for real-time queries.
+
+Learned that metadata filtering is clutch. Being able to search only PDFs or only files from last month makes the system way more useful.
+
+Wednesday:
+Had the realization that chunking strategy matters more than model choice. Spent hours tuning chunk size and overlap. Settled on 512 tokens with 50 overlap. Smaller chunks give more precise retrieval but lose context. Bigger chunks are the opposite.
+
+Thursday:
+Built a simple gradio interface. Took like 20 minutes. Cannot believe how easy modern tools make this stuff. Remember when you had to write HTML/CSS/JS for everything?
+
+Tested with my network engineering notes. The system actually understands BGP routing concepts and can explain the difference between OSPF and EIGRP. Wild.
+
+Friday:
+Added some example queries to the UI. Makes it way more user-friendly. Also discovered chainlit which looks cleaner than gradio for LLM apps specifically. Might migrate this weekend.
+
+Overall solid week. The future is running your own AI infrastructure.
